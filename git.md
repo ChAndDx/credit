@@ -38,6 +38,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 
 ##git add 添加文件变动到暂存区
+`git add git.md`
 
 
 
