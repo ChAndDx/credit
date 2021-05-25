@@ -38,7 +38,42 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 
 ##git add 添加文件变动到暂存区
+###通过指定文件名git.md可以将文件添加到暂存区
 `git add git.md`
+###添加所有文件
+`git add --all`
+`git add .`
+
+##git commit 提交文件变动到版本库
+`git commit -m '提交原因'`
+
+##git push 将本地代码改动推送到服务器
+`git push origin daily/2021.5.25`
+
+##git pull 将服务器上的最新代码拉取到本地
+`git pull origin daily/2021.5.25`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
