@@ -45,7 +45,8 @@ nothing added to commit but untracked files present (use "git add" to track)
 `git add .`
 
 ## git commit 提交文件变动到版本库  
-`git commit -m '提交原因'`
+`git commit -m '提交原因'`  
+`git commit --amend //修改提交信息`
 
 ## git push 将本地代码改动推送到服务器  
 `git push origin daily/2021.5.25`
@@ -114,6 +115,14 @@ git branch newbranch v1.0 //以v1.0创建分支
 git tag -d v1.0 //本地删除
 git push origin :refs/tags/v0.1.2
 ```
+
+## .gitignore配置文件,设置哪些内容不需要推送到服务器
+```
+demo.html
+build/
+//忽略demo.html和build/目录
+```
+
 
 
 
