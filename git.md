@@ -72,8 +72,48 @@ git fetch origin daily/2021.5.25
 ## git remote 查看项目远程地址  
 `git remote -v`
 
+## git log 查看版本提交记录  
+### J往下翻,K往上翻,Q退出  
+`git log`
 
+## git tag 为项目标记里程碑  
+### 列出已有的tag  
+`git tag`
+### 加上-l命令可以使用通配符来过滤tag
+```
+git tag -l "v3.3.*"
+v3.3.0
+v3.3.1
+```
+### 新建tag  
+`git tag v1.0`
 
+### 添加备注信息  
+`git tag -a v1.1 -m "备注信息"`
+
+### 查看tag详细信息  
+`git show tagName`
+
+### 给指定的某个commit号加tag  
+`git tag -a v1.2 9fceb02 -m "备注信息"`
+
+### 将tag同步到服务器  
+```
+git push origin v1.0 //推送单个
+git push origin --tags //全部推送
+```
+
+### 切换到某个tag  
+```
+git checkout v1.0
+git branch newbranch v1.0 //以v1.0创建分支
+```
+
+### 删除某个tag  
+```
+git tag -d v1.0 //本地删除
+git push origin :refs/tags/v0.1.2
+```
 
 
 
