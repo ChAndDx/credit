@@ -123,6 +123,12 @@ build/
 //忽略demo.html和build/目录
 ```
 
+## Tips
+### clone分支上的项目
+```
+git clone -b 分支名 远程主机名
+```
+
 
 
 
