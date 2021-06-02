@@ -29,9 +29,9 @@ copyWithin()方法浅复制数组的一部分到同一数组中的另一个位�
 ```
 arr.copyWithin(target[,start[,end]])
 ```
-target:复制序列到该位置  
-start:复制元素的起始位置  
-end:拷贝到该位置但不包括end
+>target:复制序列到该位置  
+>start:复制元素的起始位置  
+>end:拷贝到该位置但不包括end  
 ```
 let arr = ['a','b','c','d','e','f','g'];
 arr.copyWithin(1,0,2);
@@ -124,10 +124,10 @@ every()方法测试一个数组内的所有元素是否都能通过某个指定�
 arr.every(callback(element[,index[,array]])[,thisArg])
 ```
 
->`callback`用来测试每个元素的函数,可以接收三个参数
->`element`用于测试的当前值
->`index`可选,用于测试的当前值的索引
->`array`可选,调用every的当前数组
+>`callback`用来测试每个元素的函数,可以接收三个参数  
+>`element`用于测试的当前值  
+>`index`可选,用于测试的当前值的索引  
+>`array`可选,调用every的当前数组  
 >`thisArg`执行callback时使用的this值  
 
 ### 检测所有元素的大小
