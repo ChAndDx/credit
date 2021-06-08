@@ -102,7 +102,24 @@ filteredNumbers; //[1, 2, 3, undefined]
 ```
 
 ## Array.of()
+Array.of()方法创建一个具有可变数量参数的新数组实例,而不考虑参数的数量或类型  
+```
+Array.of(7);  //[7]
+Array.of(1,2,3); //[1,2,3]
+Array.of(undefined); //[undefined]
+
+Array(7);  //[,,,,,,]
+Array(1,2,3); //[1,2,3]
+```
 
 ## Array.prototype.pop()
+pop()方法从数组中删除最后一个元素,并返回该元素的值.此方法更改数组的长度.  
+pop 方法有意具有通用性。该方法和 call() 或 apply() 一起使用时，可应用在类似数组的对象上。pop方法根据 length属性来确定最后一个元素的位置。如果不包含length属性或length属性不能被转成一个数值，会将length置为0，并返回undefined。
+
+### 返回值
+从数组中删除的元素(数组为空时返回undefined)  
 
 ## Array.prototype.push()
+push()方法将一个或多个元素添加到数组的末尾,并返回该数组的新长度  
+
+push 方法具有通用性。该方法和 call() 或 apply() 一起使用时，可应用在类似数组的对象上。push 方法根据 length 属性来决定从哪里开始插入给定的值。如果 length 不能被转成一个数值，则插入的元素索引为 0，包括 length 不存在时。当 length 不存在时，将会创建它。
