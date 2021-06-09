@@ -204,21 +204,29 @@ if (!Array.prototype.mapUsingReduce) {
 ) // [5, 7, , 10]
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Array.prototype.reduceRight()
+reduceRight() 方法接受一个函数作为累加器（accumulator）和数组的每个值（从右到左）将其减少为单个值。  
+
+## Array.prototype.reverse()
+reverse() 方法将数组中元素的位置颠倒，并返回该数组。数组的第一个元素会变成最后一个，数组的最后一个元素变成第一个。该方法会改变原数组。  
+
+## Array.prototype.shift()
+shift() 方法从数组中删除第一个元素，并返回该元素的值。此方法更改数组的长度。
+
+## Array.prototype.slice()
+slice() 方法返回一个新的数组对象，这一对象是一个由 begin 和 end 决定的原数组的浅拷贝（包括 begin，不包括end）。原始数组不会被改变。
+
+## Array.prototype.some()
+some() 方法测试数组中是不是至少有1个元素通过了被提供的函数测试。它返回的是一个Boolean类型的值。  
+
+## Array.prototype.sort()
+
+## Array.prototype.splice()
+
+## Array.prototype.toLocaleString()
+
+## Array.prototype.toString()
+
+## Array.prototype.unshift()
+
+## Array.prototype.values()
