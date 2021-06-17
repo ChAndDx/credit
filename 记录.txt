@@ -1,0 +1,5 @@
+chrome调试技巧 : RGBA HEX HSLA
+this总结
+Array、稀疏数组
+function、柯里化
+css动画
